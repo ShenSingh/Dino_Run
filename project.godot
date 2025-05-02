@@ -11,10 +11,15 @@ config_version=5
 [application]
 
 config/name="Dino_Run"
-run/main_scene="uid://by121ky54h57w"
+run/main_scene="uid://bfud6ri3uapar"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

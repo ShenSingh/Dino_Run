@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://cu1g403lhjy2f"]
+
+[ext_resource type="Texture2D" uid="uid://bja6dv40whtoc" path="res://assest/img/Button/1.png" id="1_u7r83"]
+[ext_resource type="Texture2D" uid="uid://bam7uj45gy8ka" path="res://assest/img/Button/2.png" id="2_ffiw1"]
+
+[sub_resource type="GDScript" id="GDScript_u7r83"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_js6u8"]
+
+[node name="Action_Button" type="CanvasLayer"]
+process_mode = 2
+script = SubResource("GDScript_u7r83")
+
+[node name="UpBtn" type="TouchScreenButton" parent="."]
+process_mode = 1
+texture_filter = 1
+position = Vector2(81, 462)
+scale = Vector2(0.408, 0.42)
+texture_normal = ExtResource("1_u7r83")
+shape = SubResource("CircleShape2D_js6u8")
+
+[node name="DownBtn" type="TouchScreenButton" parent="."]
+process_mode = 1
+position = Vector2(969, 462)
+scale = Vector2(0.408, 0.42)
+texture_normal = ExtResource("2_ffiw1")
+shape = SubResource("CircleShape2D_js6u8")

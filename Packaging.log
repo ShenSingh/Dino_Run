@@ -1,0 +1,155 @@
+2025-05-02 01:32:48 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x10e7b4d40; archive(resolved)="<IDEArchive: 0x6000032c08c0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team(resolved)="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x10e7b4d40; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x10e7b4ab0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x10e7b48a0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x11ff175e0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x10e792300; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x10e793ee0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x10e793a10; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x10e791a50; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x11ff11800; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="<IDEProvisioningBasicTeam: 0x6000018d3180; teamID='5LYP3R4X98', teamName='(null)'>">
+	<IDEDistributionContext: 0x11ff115f0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="(null)">
+	<IDEDistributionContext: 0x11ff18bb0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="(null)">
+	<IDEDistributionContext: 0x11ff187a0; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="(null)">
+	<IDEDistributionContext: 0x10e791200; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600001b08260>", team="(null)">
+	<IDEDistributionContext: 0x11fe04080; archive = "<IDEArchive: 0x6000032c08c0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x10e7b4d40>
+2025-05-02 01:32:48 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-05-02 01:32:48 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-05-02 01:32:48 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app' '/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app'
+2025-05-02 01:32:48 +0000  >>> Copying /Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app 
+2025-05-02 01:32:48 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-05-02 01:32:48 +0000  4416 bytes for ./_CodeSignature/CodeResources
+2025-05-02 01:32:48 +0000  copying file ./en.lproj/InfoPlist.strings ... 
+2025-05-02 01:32:48 +0000  42 bytes for ./en.lproj/InfoPlist.strings
+2025-05-02 01:32:48 +0000  copying file ./Dino_Run ... 
+2025-05-02 01:32:48 +0000  71202336 bytes for ./Dino_Run
+2025-05-02 01:32:48 +0000  copying file ./AppIcon60x60@2x.png ... 
+8306 bytes for ./AppIcon60x60@2x.png
+copying file ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2104 bytes for ./Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+924 bytes for ./Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Launch Screen.storyboardc/Info.plist ... 
+2025-05-02 01:32:48 +0000  258 bytes for ./Launch Screen.storyboardc/Info.plist
+2025-05-02 01:32:48 +0000  copying file ./Assets.car ... 
+2025-05-02 01:32:49 +0000  858959 bytes for ./Assets.car
+2025-05-02 01:32:49 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-05-02 01:32:49 +0000  12238 bytes for ./AppIcon76x76@2x~ipad.png
+2025-05-02 01:32:49 +0000  copying file ./PrivacyInfo.xcprivacy ... 
+2025-05-02 01:32:49 +0000  990 bytes for ./PrivacyInfo.xcprivacy
+2025-05-02 01:32:49 +0000  copying file ./embedded.mobileprovision ... 
+2025-05-02 01:32:49 +0000  12305 bytes for ./embedded.mobileprovision
+2025-05-02 01:32:49 +0000  copying file ./Dino_Run.pck ... 
+2025-05-02 01:32:49 +0000  311312 bytes for ./Dino_Run.pck
+2025-05-02 01:32:49 +0000  copying file ./Info.plist ... 
+2025-05-02 01:32:49 +0000  1515 bytes for ./Info.plist
+2025-05-02 01:32:49 +0000  copying file ./PkgInfo ... 
+2025-05-02 01:32:49 +0000  8 bytes for ./PkgInfo
+2025-05-02 01:32:49 +0000 [MT] /usr/bin/ditto exited with 0
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-05-02 01:32:49 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-05-02 01:32:49 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-05-02 01:32:49 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-05-02 01:32:49 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-05-02 01:32:49 +0000 [MT] Item /Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-05-02 01:32:49 +0000 [MT] Archs to thin for item /Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app are ["arm64e"]
+2025-05-02 01:32:49 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app/Dino_Run' '-verify_arch' 'arm64e'
+2025-05-02 01:32:49 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-05-02 01:32:49 +0000 [MT] Skipping architecture thinning for item "Dino_Run" because arch "arm64e" wasn't found
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-05-02 01:32:49 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-05-02 01:32:49 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003dc83c0; bundleID='com.Zenova', path='<DVTFilePath:0x600003d59b60:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003aad810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002c6c900; name='Apple Development: demos8shen@gmail.com (4KHJR64R8U)', hash='D56BCC9713AA608D5F1989CFB6F5930747E1DADD', serialNumber='19BEFB63D8F8982ACF1E49C82C3BA828', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-03-26 12:54:51 +0000''>', entitlements='{
+    "application-identifier" = "5LYP3R4X98.com.Zenova";
+    "com.apple.developer.team-identifier" = 5LYP3R4X98;
+    "get-task-allow" = 1;
+}', teamID='5LYP3R4X98', identifier='com.Zenova', executablePath='<DVTFilePath:0x600003dd8ba0:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app/Dino_Run'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "5LYP3R4X98.com.Zenova";
+    "com.apple.developer.team-identifier" = 5LYP3R4X98;
+    "get-task-allow" = 1;
+}
+2025-05-02 01:32:49 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-05-02 01:32:49 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003dc83c0; bundleID='com.Zenova', path='<DVTFilePath:0x600003d59b60:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003aad810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002c6cfc0; name='Apple Development: demos8shen@gmail.com (4KHJR64R8U)', hash='D56BCC9713AA608D5F1989CFB6F5930747E1DADD', serialNumber='19BEFB63D8F8982ACF1E49C82C3BA828', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-03-26 12:54:51 +0000''>', entitlements='{
+    "application-identifier" = "5LYP3R4X98.com.Zenova";
+    "com.apple.developer.team-identifier" = 5LYP3R4X98;
+    "get-task-allow" = 1;
+}', teamID='5LYP3R4X98', identifier='com.Zenova', executablePath='<DVTFilePath:0x600003dd8ba0:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app/Dino_Run'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "5LYP3R4X98.com.Zenova";
+    "com.apple.developer.team-identifier" = 5LYP3R4X98;
+    "get-task-allow" = 1;
+}
+2025-05-02 01:32:49 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003dc83c0; bundleID='com.Zenova', path='<DVTFilePath:0x600003d59b60:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003aad810; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002c6d140; name='Apple Development: demos8shen@gmail.com (4KHJR64R8U)', hash='D56BCC9713AA608D5F1989CFB6F5930747E1DADD', serialNumber='19BEFB63D8F8982ACF1E49C82C3BA828', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-03-26 12:54:51 +0000''>', entitlements='{
+    "application-identifier" = "5LYP3R4X98.com.Zenova";
+    "com.apple.developer.team-identifier" = 5LYP3R4X98;
+    "get-task-allow" = 1;
+}', teamID='5LYP3R4X98', identifier='com.Zenova', executablePath='<DVTFilePath:0x600003dd8ba0:'/Users/gayashanashinshana/Documents/MyWork/MyFlogs/GodotGames/dino_run/Dino_Run.xcarchive/Products/Applications/Dino_Run.app/Dino_Run'>', hardenedRuntime='0'>'> to: /var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/entitlements~~~gNc8zi
+2025-05-02 01:32:49 +0000 [MT] invoking codesign: <NSConcreteTask: 0x60000394b3e0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    D56BCC9713AA608D5F1989CFB6F5930747E1DADD,
+    "--entitlements",
+    "/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/entitlements~~~gNc8zi",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app"
+)'>
+2025-05-02 01:32:49 +0000 [MT] codesign output: /var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app: replacing existing signature
+/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app: signed app bundle with Mach-O thin (arm64) [com.Zenova]
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-05-02 01:32:49 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-05-02 01:32:49 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-05-02 01:32:49 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root' '/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Packages/Dino_Run.ipa'
+2025-05-02 01:32:49 +0000  >>> Copying /var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root 
+2025-05-02 01:32:49 +0000  copying file ./Payload/Dino_Run.app/_CodeSignature/CodeResources ... 
+2025-05-02 01:32:49 +0000  4416 bytes for ./Payload/Dino_Run.app/_CodeSignature/CodeResources
+2025-05-02 01:32:49 +0000  copying file ./Payload/Dino_Run.app/en.lproj/InfoPlist.strings ... 
+2025-05-02 01:32:49 +0000  42 bytes for ./Payload/Dino_Run.app/en.lproj/InfoPlist.strings
+2025-05-02 01:32:49 +0000  copying file ./Payload/Dino_Run.app/Dino_Run ... 
+2025-05-02 01:32:50 +0000  71202336 bytes for ./Payload/Dino_Run.app/Dino_Run
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/AppIcon60x60@2x.png ... 
+2025-05-02 01:32:50 +0000  8306 bytes for ./Payload/Dino_Run.app/AppIcon60x60@2x.png
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-05-02 01:32:50 +0000  2104 bytes for ./Payload/Dino_Run.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-05-02 01:32:50 +0000  924 bytes for ./Payload/Dino_Run.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Launch Screen.storyboardc/Info.plist ... 
+2025-05-02 01:32:50 +0000  258 bytes for ./Payload/Dino_Run.app/Launch Screen.storyboardc/Info.plist
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Assets.car ... 
+2025-05-02 01:32:50 +0000  858959 bytes for ./Payload/Dino_Run.app/Assets.car
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/AppIcon76x76@2x~ipad.png ... 
+2025-05-02 01:32:50 +0000  12238 bytes for ./Payload/Dino_Run.app/AppIcon76x76@2x~ipad.png
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/PrivacyInfo.xcprivacy ... 
+2025-05-02 01:32:50 +0000  990 bytes for ./Payload/Dino_Run.app/PrivacyInfo.xcprivacy
+copying file ./Payload/Dino_Run.app/embedded.mobileprovision ... 
+2025-05-02 01:32:50 +0000  12305 bytes for ./Payload/Dino_Run.app/embedded.mobileprovision
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Dino_Run.pck ... 
+2025-05-02 01:32:50 +0000  311312 bytes for ./Payload/Dino_Run.app/Dino_Run.pck
+2025-05-02 01:32:50 +0000  copying file ./Payload/Dino_Run.app/Info.plist ... 
+2025-05-02 01:32:50 +0000  1515 bytes for ./Payload/Dino_Run.app/Info.plist
+copying file ./Payload/Dino_Run.app/PkgInfo ... 
+2025-05-02 01:32:50 +0000  8 bytes for ./Payload/Dino_Run.app/PkgInfo
+2025-05-02 01:32:50 +0000 [MT] /usr/bin/ditto exited with 0
+2025-05-02 01:32:50 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-05-02 01:32:50 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-05-02 01:32:50 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-05-02 01:32:50 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003dfdda0:'/var/folders/4w/wyj_jg895xzfp94yl_3vbc840000gn/T/XcodeDistPipeline.~~~5al9bv/Root/Payload/Dino_Run.app'>
+2025-05-02 01:32:50 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

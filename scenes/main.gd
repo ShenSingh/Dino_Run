@@ -30,6 +30,7 @@ var last_obs
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	screen_size = get_window().size
 	ground_height = $Ground.get_node("Sprite2D").texture.get_height()
 	
